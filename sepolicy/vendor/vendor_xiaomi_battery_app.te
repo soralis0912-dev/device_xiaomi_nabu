@@ -1,0 +1,5 @@
+# The gauge, charger and USB supplies carry the qualcomm vendor_ labels
+# alongside the generic ones.
+r_dir_file(vendor_xiaomi_battery_app, sysfs_battery_supply)
+r_dir_file(vendor_xiaomi_battery_app, vendor_sysfs_battery_supply)
+r_dir_file(vendor_xiaomi_battery_app, vendor_sysfs_usb_supply)
